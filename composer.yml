@@ -1,0 +1,18 @@
+{
+  "name":"moritz-sauer-13/timeline",
+  "description": "Timeline Module",
+  "authors": [
+    {
+      "name":"Tietge GmbH",
+      "email": "ms@tietge.com"
+    }
+  ],
+  "require":{
+    "silverstripe/recipe-cms": "^4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Timeline\\": "src/"
+    }
+  }
+}

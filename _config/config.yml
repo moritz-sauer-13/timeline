@@ -1,0 +1,11 @@
+---
+Name: TimelineModule
+---
+#Override in your own config if necessary
+
+#TitleWillBePublished is used for a Backend Description below the Title Field,
+#to show, if the Title is only for CMS-Orientation
+
+TimelinePageConfig:
+  SortOrder: 'ASC'
+  TitleWillBePublished: false
