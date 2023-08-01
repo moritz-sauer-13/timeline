@@ -11,6 +11,10 @@ use Timeline\DataObjects\TimelineItem;
 
 class TimelinePage extends Page
 {
+    private static $singular_name = 'Historien Seite';
+    private static $plural_name = 'Historien Seiten';
+    private static $description = 'Auf dieser Seite kann eine Historie angelegt werden.';
+    
     /*Database*/
     private static $db = [
 
