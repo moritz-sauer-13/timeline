@@ -61,6 +61,8 @@ class TimelineItem extends DataObject{
         }
 
         $titleField->setDescription($TitleFieldDescription);
+        
+        $this->extend('updateTimelineItemCMSFields', $fields);
 
         return $fields;
     }
